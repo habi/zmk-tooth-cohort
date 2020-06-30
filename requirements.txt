@@ -3,5 +3,6 @@ imageio
 matplotlib-scalebar
 seaborn
 dask
+dask-image
 numcodecs
 tqdm
