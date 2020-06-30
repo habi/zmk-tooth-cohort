@@ -1,5 +1,6 @@
 pandas
 imageio
+matplotlib-scalebar
 seaborn
 dask
 numcodecs
