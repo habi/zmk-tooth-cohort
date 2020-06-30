@@ -1,0 +1,6 @@
+pandas
+imageio
+seaborn
+dask
+numcodecs
+tqdm
