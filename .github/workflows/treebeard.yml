@@ -2,7 +2,7 @@ on: push
 jobs:
   run:
     runs-on: ubuntu-latest
-    name: treebeard: Continuous Integration for Python Data Science supporting Jupyter Notebooks
+    name: treebeard
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
