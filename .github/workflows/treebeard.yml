@@ -1,17 +1,17 @@
-- name: treebeard: Continuous Integration for Python Data Science supporting Jupyter Notebooks
-  uses: treebeardtech/treebeard@v0.0.1
-  with:
-    # treebeard api key
-    api-key: # optional
-    # notebooks to run
-    notebooks: # optional, default is **/*ipynb
-    # 
-    docker-username: # optional
-    # 
-    docker-password: # optional
-    # 
-    docker-registry: # optional
-    # env vars
-    notebook-env: # optional
-    # run treebeard inside repo2docker
-    use-docker: # optional, default is true
+name: treebeard: Continuous Integration for Python Data Science supporting Jupyter Notebooks
+uses: treebeardtech/treebeard@v0.0.1
+with:
+  # treebeard api key
+  api-key: # optional
+  # notebooks to run
+  notebooks: # optional, default is **/*ipynb
+  # 
+  docker-username: # optional
+  # 
+  docker-password: # optional
+  # 
+  docker-registry: # optional
+  # env vars
+  notebook-env: # optional
+  # run treebeard inside repo2docker
+  use-docker: # optional, default is true
