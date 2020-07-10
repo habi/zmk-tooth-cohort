@@ -1,12 +1,9 @@
-on:
-  push:
+on: push
 jobs:
   run:
     runs-on: ubuntu-latest
-    name: Run treebeard
+    name: treebeard
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       - uses: treebeardtech/treebeard@master
-        env:
-          TB_MY_TOKEN: "${{ secrets.MY_TOKEN }}" # 'TB_' prefixed variable are passed to notebook runtime
