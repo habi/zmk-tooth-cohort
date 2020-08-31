@@ -8,3 +8,6 @@ dask-image
 distributed
 numcodecs
 tqdm
+scikit-image
+itkwidgets
+ipywebrtc
