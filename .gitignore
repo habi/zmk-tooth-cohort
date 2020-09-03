@@ -2,3 +2,6 @@
 dask-worker*
 Output
 Method-Manuscript
+*.mlab
+*.png
+*.tif
