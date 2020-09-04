@@ -1,9 +1,14 @@
+toolz
 pandas
 imageio
 matplotlib-scalebar
 seaborn
 dask
 dask-image
+distributed
 numcodecs
 tqdm
 zarr
+scikit-image
+itkwidgets
+ipywebrtc
