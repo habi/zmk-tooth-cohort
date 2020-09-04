@@ -6,3 +6,4 @@ dask
 dask-image
 numcodecs
 tqdm
+zarr
