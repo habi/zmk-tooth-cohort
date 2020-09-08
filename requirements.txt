@@ -9,6 +9,7 @@ distributed
 numcodecs
 tqdm
 zarr
+fsspec
 scikit-image
 itkwidgets
 ipywebrtc
