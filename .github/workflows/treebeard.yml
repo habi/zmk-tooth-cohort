@@ -1,11 +1,12 @@
-on: push
+on:
+  push:
 jobs:
   run:
     runs-on: ubuntu-latest
-    name: Treebeard Jupyter Notebook CI
+    name: Run treebeard
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       - uses: treebeardtech/treebeard@master
         with:
-          cell_execution_timeout_seconds=2000
+          cell_execution_timeout_seconds: "2000"
