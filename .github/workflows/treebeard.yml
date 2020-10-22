@@ -8,5 +8,3 @@ jobs:
       - uses: actions/checkout@v2
       - uses: actions/setup-python@v2
       - uses: treebeardtech/treebeard@master
-        with:
-          cell_execution_timeout_seconds: "2000"
