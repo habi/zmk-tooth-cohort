@@ -1,6 +1,6 @@
 [![DOI](https://zenodo.org/badge/275833192.svg)](https://zenodo.org/badge/latestdoi/275833192)![.github/workflows/treebeard.yml](https://github.com/habi/zmk-tooth-cohort/workflows/.github/workflows/treebeard.yml/badge.svg)
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/habi/zmk-tooth-cohort/master?filepath=ToothAnalysis.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/habi/zmk-tooth-cohort/master?filepath=ToothAnalysis.ipynb) [![Join the chat at https://gitter.im/habi/Teeth](https://badges.gitter.im/habi/Teeth.svg)](https://gitter.im/habi/Teeth?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # A big tooth cohort
 We scanned a *big* bunch of teeth for a team of [the dental clinic of the University of Bern](https://www.zmk.unibe.ch/).
