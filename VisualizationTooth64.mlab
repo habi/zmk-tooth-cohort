@@ -17,9 +17,9 @@ module Compose3DFrom2DFiles {
   }
   fields  {
     instanceName = Compose3DFrom2DFiles8
-    dirPath = F:/ZMK/ToothBattallion/64/pulpa
+    dirPath = F:/ZMK/ToothBattallion/64/rootcanal
     searchPattern = "**.png*"
-    currentFile = F:/ZMK/ToothBattallion/27/pulpa/Tooth027_pulpa_00002413.png
+    currentFile = F:/ZMK/ToothBattallion/27/rootcanal/Tooth027_rootcanal_00002413.png
     readRaw = FALSE
     rawX = 1
     rawY = 1
@@ -100,7 +100,7 @@ module MLImageFormatSave {
     userTag09 = ""
     regionOffset = "0 0 0 0 0 0"
     suppressWorldPos = FALSE
-    fileName = F:/ZMK/ToothBattallion/64/Tooth064_pulpa.mlimage
+    fileName = F:/ZMK/ToothBattallion/64/Tooth064_rootcanal.mlimage
   }
 }
 module MLImageFormatLoad {
@@ -121,7 +121,7 @@ module MLImageFormatLoad {
     suppressWorldPos = FALSE
     applyMode = AutoUpdate
     suppressCheckSumTests = TRUE
-    fileName = F:/ZMK/ToothBattallion/64/Tooth064_pulpa.mlimage
+    fileName = F:/ZMK/ToothBattallion/64/Tooth064_rootcanal.mlimage
   }
 }
 module ImagePropertyConvert {
