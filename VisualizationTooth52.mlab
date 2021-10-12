@@ -381,12 +381,12 @@ module SoPathTracerAreaLight {
     enabled = TRUE
     renderSource = TRUE
     color = "0.901960790157318 0 0.180392161011696"
-    intensity = 3
+    intensity = 25
     width = 5
     height = 1
-    theta = -123.62023
-    phi = 178.19673
-    distance = 0.68000001
+    theta = -90
+    phi = 0
+    distance = 0.61799997
     attachToCamera = TRUE
     position = "0 0 0"
     orientation = "0 0 1 0"
@@ -557,7 +557,7 @@ module SoPathTracer {
       }
     }
   }
-  fields  {
+fields  {
     instanceName = SoPathTracer1
     optixDenoiser = FALSE
     directHDROutput = FALSE
@@ -566,8 +566,8 @@ module SoPathTracer {
     toneMapping = Exponential
     renderMode = PathTracing
     blendMode = Replace
-    backgroundTopColor = "0 0 0"
-    backgroundBottomColor = "0 0 0.615686297416687"
+    backgroundTopColor = "0.850980401039124 0.850980401039124 0.850980401039124"
+    backgroundBottomColor = "0.850980401039124 0.850980401039124 0.850980401039124"
     interactiveFrameRate = 30
     pickingAlphaThreshold = 0.1
     sharpenStart = 100
@@ -873,7 +873,8 @@ module RegionGrowingMacro {
     showOuterBoundariesOnly = FALSE
     incrementalUpdateMode = Smart
     internalAccuracy = Auto
-    markerPersistence = FALSE
+    markerPersistence = TRUE
+
     markerString = "[(2.755 4.48499 24.545) #1]"
     deleteMarkerOnClick = TRUE
     markerOverflowMode = None

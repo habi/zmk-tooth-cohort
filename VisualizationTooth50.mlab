@@ -1,5 +1,5 @@
 // MDL v1 utf8
-mevislabVersion = 3.1
+mevislabVersion = 3.1.1
 network  {
   watchlist = ""
 }
@@ -9,17 +9,17 @@ module Compose3DFrom2DFiles {
     moduleGroupName = "48 (einfache Anatomie)"
     windows  {
       window _default {
-        geometry = "136 291 424 531"
-        sizeHint = "424 531"
-        wasOpen = yes
+        geometry = "1257 138 424 526"
+        sizeHint = "424 526"
+        wasOpen = no
       }
     }
   }
   fields  {
     instanceName = Compose3DFrom2DFiles8
-    dirPath = F:/ZMK/ToothBattallion/48/rootcanal
+    dirPath = F:/ZMK/ToothBattallion/75/rootcanal
     searchPattern = "**.png*"
-    currentFile = F:/ZMK/ToothBattallion/27/rootcanal/Tooth027_rootcanal_00002413.png
+    currentFile = F:/ZMK/ToothBattallion/75/rootcanal/Tooth075_rootcanal_00002498.png
     readRaw = FALSE
     rawX = 1
     rawY = 1
@@ -39,9 +39,9 @@ module MLImageFormatSave {
     moduleGroupName = "48 (einfache Anatomie)"
     windows  {
       window _default {
-        geometry = "557 267 332 410"
-        sizeHint = "332 410"
-        wasOpen = no
+        geometry = "1419 385 274 400"
+        sizeHint = "274 400"
+        wasOpen = yes
       }
     }
   }
@@ -100,7 +100,7 @@ module MLImageFormatSave {
     userTag09 = ""
     regionOffset = "0 0 0 0 0 0"
     suppressWorldPos = FALSE
-    fileName = F:/ZMK/ToothBattallion/48/Tooth048_rootcanal.mlimage
+    fileName = F:/ZMK/ToothBattallion/75/Tooth075_rootcanal.mlimage
   }
 }
 module MLImageFormatLoad {
@@ -121,7 +121,7 @@ module MLImageFormatLoad {
     suppressWorldPos = FALSE
     applyMode = AutoUpdate
     suppressCheckSumTests = TRUE
-    fileName = F:/ZMK/ToothBattallion/48/Tooth048_rootcanal.mlimage
+    fileName = F:/ZMK/ToothBattallion/75/Tooth075_rootcanal.mlimage
   }
 }
 module ImagePropertyConvert {
@@ -189,9 +189,9 @@ module MLImageFormatLoad {
     moduleGroupName = "48 (einfache Anatomie)"
     windows  {
       window _default {
-        geometry = "474 400 450 440"
-        sizeHint = "450 440"
-        wasOpen = no
+        geometry = "220 463 450 428"
+        sizeHint = "450 428"
+        wasOpen = yes
       }
     }
   }
@@ -201,7 +201,7 @@ module MLImageFormatLoad {
     suppressWorldPos = FALSE
     applyMode = AutoUpdate
     suppressCheckSumTests = TRUE
-    fileName = F:/ZMK/ToothBattallion/48/Tooth048_tooth_rec_crop.mlimage
+    fileName = F:/ZMK/ToothBattallion/50/Tooth050_tooth_rec_crop.mlimage
   }
 }
 module Compose3DFrom2DFiles {
@@ -210,17 +210,17 @@ module Compose3DFrom2DFiles {
     moduleGroupName = "48 (einfache Anatomie)"
     windows  {
       window _default {
-        geometry = "511 207 424 531"
-        sizeHint = "424 531"
+        geometry = "132 414 424 526"
+        sizeHint = "424 526"
         wasOpen = no
       }
     }
   }
   fields  {
     instanceName = Compose3DFrom2DFiles9
-    dirPath = F:/ZMK/ToothBattallion/48/rec_crop
+    dirPath = F:/ZMK/ToothBattallion/50/rec_crop
     searchPattern = "**.png*"
-    currentFile = F:/ZMK/ToothBattallion/27/rec_crop/Tooth027_rec_crop_00002413.png
+    currentFile = F:/ZMK/ToothBattallion/50/rec_crop/Tooth050_rec_crop_00002455.png
     readRaw = FALSE
     rawX = 1
     rawY = 1
@@ -301,7 +301,7 @@ module MLImageFormatSave {
     userTag09 = ""
     regionOffset = "0 0 0 0 0 0"
     suppressWorldPos = FALSE
-    fileName = F:/ZMK/ToothBattallion/48/Tooth048_tooth_rec_crop.mlimage
+    fileName = F:/ZMK/ToothBattallion/50/Tooth050_tooth_rec_crop.mlimage
   }
 }
 module ImagePropertyConvert {
@@ -401,13 +401,13 @@ module SoExaminerViewer {
     moduleGroupName = ""
     windows  {
       window _viewer {
-        geometry = "2469 99 453 944"
+        geometry = "-2526 212 400 400"
         sizeHint = "400 400"
-        wasOpen = yes
+        wasOpen = no
       }
       window _default {
-        geometry = "889 741 573 359"
-        sizeHint = "573 359"
+        geometry = "71 158 463 315"
+        sizeHint = "463 315"
         wasOpen = yes
       }
       window _automatic {
@@ -437,11 +437,11 @@ module SoExaminerViewer {
     autoRedrawWhenRecording = TRUE
     frameRate = 7
     frameRateAvi = 15
-    outputSnapshotFile = F:/ZMK/ToothBattallion/48/Tooth048
-    outputSnapshotFileWritten = F:/ZMK/ToothBattallion/48/Tooth0488.tif
+    outputSnapshotFile = F:/ZMK/ToothBattallion/50/Tooth050
+    outputSnapshotFileWritten = F:/ZMK/ToothBattallion/50/Tooth0503.tif
     autoIncreaseFile = TRUE
     showSnapshotWithShell = TRUE
-    snapCount = 9
+    snapCount = 4
     inputDevicesList = ""
     headlight = FALSE
     decoration = TRUE
@@ -464,12 +464,12 @@ module SoExaminerViewer {
     perspective = FALSE
     stereoViewing = FALSE
     stereoOffset = 3
-    height = 25.911854
-    position = "3.79499459266663 17.4759197235107 11.5249795913696"
-    orientation = "0.999999940395355 0 0 4.71238851547241"
-    nearDistance = 8.4224977
-    farDistance = 17.498404
-    focalDistance = 12.955927
+    height = 25.369122
+    position = "3.72499465942383 -9.16456508636475 11.5949850082397"
+    orientation = "0.999999940395355 0 0 1.57079637050629"
+    nearDistance = 9.1504059
+    farDistance = 16.225767
+    focalDistance = 12.684561
     forceRedrawOnInteraction = FALSE
     button1events = TO_VIEWER
     button2events = TO_VIEWER
@@ -557,7 +557,7 @@ module SoPathTracer {
       }
     }
   }
-fields  {
+  fields  {
     instanceName = SoPathTracer1
     optixDenoiser = FALSE
     directHDROutput = FALSE
@@ -793,8 +793,8 @@ module RegionGrowingMacro {
     moduleGroupName = ""
     windows  {
       window _default {
-        geometry = "1361 423 1144 574"
-        sizeHint = "1144 574"
+        geometry = "792 373 1032 574"
+        sizeHint = "1032 574"
         wasOpen = yes
       }
     }
@@ -825,8 +825,7 @@ module RegionGrowingMacro {
     incrementalUpdateMode = Smart
     internalAccuracy = Auto
     markerPersistence = TRUE
-
-    markerString = "[(5.03499 8.55499 22.525) #1]"
+    markerString = "[(3.75499 5.86499 22.955) #1]"
     deleteMarkerOnClick = TRUE
     markerOverflowMode = None
     maxMarkers = 0
@@ -862,7 +861,7 @@ module SynchroView2D {
       window _default {
         geometry = "956 726 804 400"
         sizeHint = "804 400"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
@@ -877,7 +876,7 @@ module SynchroView2D {
     disconnectOnHide = TRUE
     snapToCenter1 = FALSE
     snapToCenter2 = FALSE
-    slice1 = 26
+    slice1 = 0
     timepoint1 = 0
     filterMode = FILTER_LINEAR
     slice2 = 0

@@ -1,5 +1,5 @@
 // MDL v1 utf8
-mevislabVersion = 3.1
+mevislabVersion = 3.1.1
 network  {
   watchlist = ""
 }
@@ -11,7 +11,7 @@ module Compose3DFrom2DFiles {
       window _default {
         geometry = "136 291 424 531"
         sizeHint = "424 531"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
@@ -41,7 +41,7 @@ module MLImageFormatSave {
       window _default {
         geometry = "557 267 332 410"
         sizeHint = "332 410"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
@@ -111,7 +111,7 @@ module MLImageFormatLoad {
       window _default {
         geometry = "739 347 452 440"
         sizeHint = "450 440"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
@@ -210,8 +210,8 @@ module Compose3DFrom2DFiles {
     moduleGroupName = "93 (mehrere Foramen)"
     windows  {
       window _default {
-        geometry = "511 207 424 531"
-        sizeHint = "424 531"
+        geometry = "145 335 424 526"
+        sizeHint = "424 526"
         wasOpen = yes
       }
     }
@@ -220,7 +220,7 @@ module Compose3DFrom2DFiles {
     instanceName = Compose3DFrom2DFiles9
     dirPath = F:/ZMK/ToothBattallion/93/rec_crop
     searchPattern = "**.png*"
-    currentFile = F:/ZMK/ToothBattallion/27/rec_crop/Tooth027_rec_crop_00002413.png
+    currentFile = F:/ZMK/ToothBattallion/93/rec_crop/Tooth093_rec_crop_00002078.png
     readRaw = FALSE
     rawX = 1
     rawY = 1
@@ -240,8 +240,8 @@ module MLImageFormatSave {
     moduleGroupName = "93 (mehrere Foramen)"
     windows  {
       window _default {
-        geometry = "557 267 332 410"
-        sizeHint = "332 410"
+        geometry = "1031 465 573 400"
+        sizeHint = "274 400"
         wasOpen = yes
       }
     }
@@ -381,12 +381,12 @@ module SoPathTracerAreaLight {
     enabled = TRUE
     renderSource = TRUE
     color = "0.901960790157318 0 0.180392161011696"
-    intensity = 3
+    intensity = 25
     width = 5
     height = 1
-    theta = -123.62023
-    phi = 178.19673
-    distance = 0.68000001
+    theta = -90
+    phi = 0
+    distance = 0.61799997
     attachToCamera = TRUE
     position = "0 0 0"
     orientation = "0 0 1 0"
@@ -401,13 +401,13 @@ module SoExaminerViewer {
     moduleGroupName = ""
     windows  {
       window _viewer {
-        geometry = "2491 158 453 944"
+        geometry = "-2671 248 400 400"
         sizeHint = "400 400"
-        wasOpen = no
+        wasOpen = yes
       }
       window _default {
-        geometry = "889 741 573 359"
-        sizeHint = "573 359"
+        geometry = "355 438 463 315"
+        sizeHint = "463 315"
         wasOpen = yes
       }
       window _automatic {
@@ -438,10 +438,10 @@ module SoExaminerViewer {
     frameRate = 7
     frameRateAvi = 15
     outputSnapshotFile = F:/ZMK/ToothBattallion/93/Tooth093
-    outputSnapshotFileWritten = F:/ZMK/ToothBattallion/27/Tooth0277.tif
-    autoIncreaseFile = FALSE
+    outputSnapshotFileWritten = F:/ZMK/ToothBattallion/93/Tooth0932.tif
+    autoIncreaseFile = TRUE
     showSnapshotWithShell = TRUE
-    snapCount = 8
+    snapCount = 3
     inputDevicesList = ""
     headlight = FALSE
     decoration = TRUE
@@ -464,12 +464,12 @@ module SoExaminerViewer {
     perspective = FALSE
     stereoViewing = FALSE
     stereoOffset = 3
-    height = 23.388603
-    position = "-7.97500228881836 5.66963577270508 10.4299926757812"
-    orientation = "0.636731684207916 0.545239508152008 -0.545240044593811 4.27557516098022"
-    nearDistance = 7.5481277
-    farDistance = 15.848755
-    focalDistance = 11.694302
+    height = 23.32284
+    position = "-7.6442813873291 7.02795934677124 10.3949851989746"
+    orientation = "0.47199621796608 -0.623385727405548 -0.623385727405548 2.25960326194763"
+    nearDistance = 7.1539822
+    farDistance = 16.17786
+    focalDistance = 11.66142
     forceRedrawOnInteraction = FALSE
     button1events = TO_VIEWER
     button2events = TO_VIEWER
@@ -566,8 +566,8 @@ module SoPathTracer {
     toneMapping = Exponential
     renderMode = PathTracing
     blendMode = Replace
-    backgroundTopColor = "0 0 0"
-    backgroundBottomColor = "0 0 0.615686297416687"
+    backgroundTopColor = "0.850980401039124 0.850980401039124 0.850980401039124"
+    backgroundBottomColor = "0.850980401039124 0.850980401039124 0.850980401039124"
     interactiveFrameRate = 30
     pickingAlphaThreshold = 0.1
     sharpenStart = 100
@@ -602,7 +602,7 @@ module SoLUTEditor {
       window _default {
         geometry = "1082 664 514 450"
         sizeHint = "514 450"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
@@ -842,9 +842,9 @@ module RegionGrowingMacro {
     moduleGroupName = ""
     windows  {
       window _default {
-        geometry = "1361 423 1144 574"
-        sizeHint = "1144 574"
-        wasOpen = yes
+        geometry = "650 363 1032 574"
+        sizeHint = "1032 574"
+        wasOpen = no
       }
     }
   }
@@ -873,8 +873,8 @@ module RegionGrowingMacro {
     showOuterBoundariesOnly = FALSE
     incrementalUpdateMode = Smart
     internalAccuracy = Auto
-    markerPersistence = FALSE
-    markerString = "[(2.605 4.22499 20.565) #1, (2.165 2.955 20.195) #2, (2.565 3.96499 20.735) #3]"
+    markerPersistence = TRUE
+    markerString = "[(2.615 4.19499 20.435) #1, (2.565 3.96499 20.615) #2, (2.205 2.975 20.065) #3]"
     deleteMarkerOnClick = TRUE
     markerOverflowMode = None
     maxMarkers = 0
@@ -910,7 +910,7 @@ module SynchroView2D {
       window _default {
         geometry = "956 726 804 400"
         sizeHint = "804 400"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
@@ -951,7 +951,7 @@ module GaussSmoothing {
       window _default {
         geometry = "1147 585 194 276"
         sizeHint = "194 276"
-        wasOpen = yes
+        wasOpen = no
       }
     }
   }
