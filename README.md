@@ -8,7 +8,7 @@
 
 We scanned a *big* bunch of teeth for a team of [the dental clinic of the University of Bern](https://www.zmk.unibe.ch/).
 
-To get an overview of the samples *while* we scanned the whole tooth cohort we generated a [preview and analysis notebook](ToothAnalyis.ipynb).
+To get an overview of the samples *while* we scanned the whole tooth cohort we generated a [preview and analysis notebook](ToothAnalysis.ipynb).
 The analysis notebook (with download possibility for two of the +100 teeth) can be started in your browser by clicking on the 'Binder' badge above, without installation of any software.
 If you'd like to start a Binder instance with the full repository, you can click [here](https://mybinder.org/v2/gh/habi/zmk-tooth-cohort/master
 ).
