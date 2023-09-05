@@ -1,5 +1,4 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.3999402.svg)](https://doi.org/10.5281/zenodo.3999402)
-![.github/workflows/treebeard.yml](https://github.com/habi/zmk-tooth-cohort/workflows/.github/workflows/treebeard.yml/badge.svg)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/habi/zmk-tooth-cohort/master?filepath=ToothAnalysis.ipynb)
 [![Join the chat at https://gitter.im/habi/Teeth](https://badges.gitter.im/habi/Teeth.svg)](https://gitter.im/habi/Teeth)
